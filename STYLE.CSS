@@ -1,0 +1,44 @@
+body{
+    background-color: #3E81D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4%;
+    
+}
+
+#analisar_numeros{
+    width: 150px;
+    height: 100px;
+    margin-left: 1rem;
+}
+
+#finalizar{
+    margin: 1rem;
+    width: 80px;
+    height: 20px;
+}
+
+#num{
+    margin-left: 1rem;
+}
+
+#dados_analisados{
+    margin: 1rem;
+}
